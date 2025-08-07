@@ -3,6 +3,7 @@ This repo outlines the full setup of a Linux-based forensic USB toolkit designed
 
 <h2>Project Folder Structure</h2>
   Local Path: ~/Desktop/Projects/Forensic USB
+  
   ```bash
   Forensic USB/
   ├── MemoryCapture/
@@ -17,4 +18,15 @@ This repo outlines the full setup of a Linux-based forensic USB toolkit designed
   ├── Docs/
   └── Tools/
   ```
-
+  Forensic USB/
+  ├── MemoryCapture/
+  ├── DiskImaging/
+  ├── Triage/
+  ├── LogTools/
+  ├── SysInternals/
+  ├── Hashing/
+  ├── PowerShellScripts/
+  ├── CMDTools/
+  ├── Templates/
+  ├── Docs/
+  └── Tools/
