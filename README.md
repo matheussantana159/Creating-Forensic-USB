@@ -36,7 +36,6 @@ Each folder will contain categories with tools associated with it to acquire doc
   git clone https://github.com/504ensicsLabs/LiME.git
   ```
 - LiME (Linux Memory Extractor) - Captures physical memory from Linux systems.
-  
 - GitHub: https://github.com/504ensicsLabs/LiME
   
 <h3>3. Disk Imaging Tools</h3>
@@ -45,7 +44,6 @@ Each folder will contain categories with tools associated with it to acquire doc
   sudo apt install dcfldd guymager -y
   ```
 - dcfldd – Enhanced dd with progress meter.
-
 - Guymager – GUI disk imaging tool.
   
 <h3>4. Triage Tools</h3>
@@ -58,7 +56,6 @@ Each folder will contain categories with tools associated with it to acquire doc
   ```
 
 - Velociraptor – Endpoint visibility and DFIR collection.
-
 - GitHub: https://github.com/Velocidex/velociraptor
   
 <h3>5. Log Parsing Tools</h3>
@@ -72,7 +69,6 @@ Each folder will contain categories with tools associated with it to acquire doc
   ```
 
 - evtx – Parses Windows Event Logs.
-
 - GitHub: https://github.com/omerbenamram/evtx
   
 <h3>6. System Analysis Alternatives to SysInternals</h3>
@@ -82,11 +78,8 @@ Each folder will contain categories with tools associated with it to acquire doc
   ```
 
 - tcpdump – Packet capture
-
 - lsof – Open files
-
 - htop – Process monitor
-
 - strace – Syscall tracer
   
 <h3>7. Hashing Tools</h3>
@@ -96,7 +89,6 @@ Each folder will contain categories with tools associated with it to acquire doc
   ```
 
 - hashdeep – Recursive hashing of files.
-
 - sha256sum, md5sum already available on most Linux systems.
   
 <h3>8. Create Script & Template Files</h3>
@@ -118,11 +110,8 @@ Each folder will contain categories with tools associated with it to acquire doc
 <h2>Using USB/SSD Drives and Suggested Additions</h2>
 
 - Make sure to format USB/SSD as exFAT or NTFS so it can store large files such as RAM dumps.
-
 - Add custom scripts to CMDTools or PowerShellScripts to streamline downloads.
-
 - Maintain research logs, notes, and findings in Docs/
-
 - Add Eric Zimmerman's tools and KAPE for Win if dual-booting or building a Win specific toolkit.
 
 <h3>References</h3>
