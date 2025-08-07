@@ -24,3 +24,6 @@ Each folder will contain categories with tools associated with it to acquire doc
 <h2>Step-by-Step Installation</h2>
 
   1. <h3>Creating Folder Structure</h3>
+  ```bash
+  mkdir -p ~/Desktop/Projects/"Forensic USB"/{MemoryCapture,DiskImaging,Triage,LogTools,SysInternals,Hashing,PowerShellScripts,CMDTools,Templates,Docs,Tools}
+  ```
