@@ -27,3 +27,79 @@ Each folder will contain categories with tools associated with it to acquire doc
   ```bash
   mkdir -p ~/Desktop/Projects/"Forensic USB"/{MemoryCapture,DiskImaging,Triage,LogTools,SysInternals,Hashing,PowerShellScripts,CMDTools,Templates,Docs,Tools}
   ```
+
+  2. <h3>Memory Acquisition Tools</h3>
+  ```bash
+  cd ~/Desktop/Projects/"Forensic USB"/MemoryCapture
+  git clone https://github.com/504ensicsLabs/LiME.git
+  ```
+LiME (Linux Memory Extractor) - Captures physical memory from Linux systems.
+GitHub: https://github.com/504ensicsLabs/LiME
+  
+  3. <h3>Disk Imaging Tools</h3>
+  ```bash
+  sudo apt install dcfldd guymager -y
+  ```
+dcfldd – Enhanced dd with progress meter.
+
+Guymager – GUI disk imaging tool.
+  
+  4. <h3>Triage Tools</h3>
+  ```bash
+  cd ~/Desktop/Projects/"Forensic USB"/Triage
+  curl -LO https://github.com/Velocidex/velociraptor/releases/latest/download/velociraptor-v0.7.1-linux-amd64
+  chmod +x velociraptor-v0.7.1-linux-amd64
+  mv velociraptor-v0.7.1-linux-amd64 velociraptor
+  ```
+Velociraptor – Endpoint visibility and DFIR collection.
+
+GitHub: https://github.com/Velocidex/velociraptor
+  
+  5. <h3>Log Parsing Tools</h3>
+  ```bash
+  cd ~/Desktop/Projects/"Forensic USB"/LogTools
+  sudo apt install cargo -y
+  git clone https://github.com/omerbenamram/evtx.git
+  cd evtx
+  cargo build --release
+  ```
+evtx – Parses Windows Event Logs.
+
+GitHub: https://github.com/omerbenamram/evtx
+  
+  6. <h3>System Analysis Alternatives to SysInternals</h3>
+  ```bash
+  sudo apt install sysstat net-tools lsof htop strace tcpdump -y
+  ```
+tcpdump – Packet capture
+
+lsof – Open files
+
+htop – Process monitor
+
+strace – Syscall tracer
+  
+  7. <h3>Hashing Tools</h3>
+  ```bash
+  sudo apt install hashdeep -y
+  ```
+hashdeep – Recursive hashing of files.
+
+sha256sum, md5sum already available on most Linux systems.
+  
+  8. <h3>Create Script & Template Files</h3>
+  ```bash
+  cd ~/Desktop/Projects/"Forensic USB"/PowerShellScripts
+  touch analyze_network.ps1 list_processes.ps1
+  
+  cd ~/Desktop/Projects/"Forensic USB"/CMDTools
+  touch netstat_output.sh process_list.sh
+  
+  cd ~/Desktop/Projects/"Forensic USB"/Templates
+  touch CaseNotes_Template.md EvidenceChecklist.md ToolUsage_QuickCommands.md
+  
+  cd ~/Desktop/Projects/"Forensic USB"/Docs
+  touch artifact_locations.md setup_instructions.md
+  ```
+
+  
