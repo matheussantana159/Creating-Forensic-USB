@@ -116,24 +116,27 @@ sha256sum, md5sum already available on most Linux systems.
 
 <h2>Using USB/SSD Drives and Suggested Additions</h2>
 
-Make sure to format USB/SSD as exFAT or NTFS so it can store large files such as RAM dumps
+Make sure to format USB/SSD as exFAT or NTFS so it can store large files such as RAM dumps.
+
 Add custom scripts to CMDTools or PowerShellScripts to streamline downloads.
+
 Maintain research logs, notes, and findings in Docs/
+
 Add Eric Zimmerman's tools and KAPE for Win if dual-booting or building a Win specific toolkit.
 
 <h3>References</h3>
 
-LiME: https://github.com/504ensicsLabs/LiME
-
-Velociraptor: https://github.com/Velocidex/velociraptor
-
-evtx: https://github.com/omerbenamram/evtx
-
-Guymager: https://guymager.sourceforge.io/
-
-Hashdeep: https://packages.debian.org/search?keywords=hashdeep
-
-Sysstat/net-tools: https://linux.die.net/man/1/sysstat
+  LiME: https://github.com/504ensicsLabs/LiME
+  
+  Velociraptor: https://github.com/Velocidex/velociraptor
+  
+  evtx: https://github.com/omerbenamram/evtx
+  
+  Guymager: https://guymager.sourceforge.io/
+  
+  Hashdeep: https://packages.debian.org/search?keywords=hashdeep
+  
+  Sysstat/net-tools: https://linux.die.net/man/1/sysstat
 
 
 
