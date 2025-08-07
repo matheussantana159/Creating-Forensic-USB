@@ -35,17 +35,18 @@ Each folder will contain categories with tools associated with it to acquire doc
   cd ~/Desktop/Projects/"Forensic USB"/MemoryCapture
   git clone https://github.com/504ensicsLabs/LiME.git
   ```
-LiME (Linux Memory Extractor) - Captures physical memory from Linux systems.
-GitHub: https://github.com/504ensicsLabs/LiME
+- LiME (Linux Memory Extractor) - Captures physical memory from Linux systems.
+  
+- GitHub: https://github.com/504ensicsLabs/LiME
   
 <h3>3. Disk Imaging Tools</h3>
 
   ```bash
   sudo apt install dcfldd guymager -y
   ```
-dcfldd – Enhanced dd with progress meter.
+- dcfldd – Enhanced dd with progress meter.
 
-Guymager – GUI disk imaging tool.
+- Guymager – GUI disk imaging tool.
   
 <h3>4. Triage Tools</h3>
 
@@ -56,9 +57,9 @@ Guymager – GUI disk imaging tool.
   mv velociraptor-v0.7.1-linux-amd64 velociraptor
   ```
 
-Velociraptor – Endpoint visibility and DFIR collection.
+- Velociraptor – Endpoint visibility and DFIR collection.
 
-GitHub: https://github.com/Velocidex/velociraptor
+- GitHub: https://github.com/Velocidex/velociraptor
   
 <h3>5. Log Parsing Tools</h3>
 
@@ -70,9 +71,9 @@ GitHub: https://github.com/Velocidex/velociraptor
   cargo build --release
   ```
 
-evtx – Parses Windows Event Logs.
+- evtx – Parses Windows Event Logs.
 
-GitHub: https://github.com/omerbenamram/evtx
+- GitHub: https://github.com/omerbenamram/evtx
   
 <h3>6. System Analysis Alternatives to SysInternals</h3>
 
@@ -80,13 +81,13 @@ GitHub: https://github.com/omerbenamram/evtx
   sudo apt install sysstat net-tools lsof htop strace tcpdump -y
   ```
 
-tcpdump – Packet capture
+- tcpdump – Packet capture
 
-lsof – Open files
+- lsof – Open files
 
-htop – Process monitor
+- htop – Process monitor
 
-strace – Syscall tracer
+- strace – Syscall tracer
   
 <h3>7. Hashing Tools</h3>
 
@@ -94,9 +95,9 @@ strace – Syscall tracer
   sudo apt install hashdeep -y
   ```
 
-hashdeep – Recursive hashing of files.
+- hashdeep – Recursive hashing of files.
 
-sha256sum, md5sum already available on most Linux systems.
+- sha256sum, md5sum already available on most Linux systems.
   
 <h3>8. Create Script & Template Files</h3>
 
