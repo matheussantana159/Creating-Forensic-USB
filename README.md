@@ -23,4 +23,4 @@ Each folder will contain categories with tools associated with it to acquire doc
 
 <h2>Step-by-Step Installation</h2>
 
-  1. <h1>Creating Folder Structure</h1>
+  1. <h3>Creating Folder Structure</h3>
