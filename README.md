@@ -21,3 +21,6 @@ This repo outlines the full setup of a Linux-based forensic USB toolkit designed
   ```
 Each folder will contain categories with tools associated with it to acquire documentation used for live and post-modern forensic investigations.
 
+<h2>Step-by-Step Installation</h2>
+
+  1. Creating Folder Structure
