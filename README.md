@@ -23,12 +23,12 @@ Each folder will contain categories with tools associated with it to acquire doc
 
 <h2>Step-by-Step Installation</h2>
 
-  1. <h3>Creating Folder Structure</h3>
+<h3>1. Creating Folder Structure</h3>
   ```bash
   mkdir -p ~/Desktop/Projects/"Forensic USB"/{MemoryCapture,DiskImaging,Triage,LogTools,SysInternals,Hashing,PowerShellScripts,CMDTools,Templates,Docs,Tools}
   ```
 
-  2. <h3>Memory Acquisition Tools</h3>
+<h3>2. Memory Acquisition Tools</h3>
   ```bash
   cd ~/Desktop/Projects/"Forensic USB"/MemoryCapture
   git clone https://github.com/504ensicsLabs/LiME.git
@@ -36,7 +36,7 @@ Each folder will contain categories with tools associated with it to acquire doc
 LiME (Linux Memory Extractor) - Captures physical memory from Linux systems.
 GitHub: https://github.com/504ensicsLabs/LiME
   
-  3. <h3>Disk Imaging Tools</h3>
+<h3>3. Disk Imaging Tools</h3>
   ```bash
   sudo apt install dcfldd guymager -y
   ```
@@ -44,7 +44,7 @@ dcfldd – Enhanced dd with progress meter.
 
 Guymager – GUI disk imaging tool.
   
-  4. <h3>Triage Tools</h3>
+<h3>4. Triage Tools</h3>
   ```bash
   cd ~/Desktop/Projects/"Forensic USB"/Triage
   curl -LO https://github.com/Velocidex/velociraptor/releases/latest/download/velociraptor-v0.7.1-linux-amd64
@@ -55,7 +55,7 @@ Velociraptor – Endpoint visibility and DFIR collection.
 
 GitHub: https://github.com/Velocidex/velociraptor
   
-  5. <h3>Log Parsing Tools</h3>
+<h3>5. Log Parsing Tools</h3>
   ```bash
   cd ~/Desktop/Projects/"Forensic USB"/LogTools
   sudo apt install cargo -y
@@ -67,7 +67,7 @@ evtx – Parses Windows Event Logs.
 
 GitHub: https://github.com/omerbenamram/evtx
   
-  6. <h3>System Analysis Alternatives to SysInternals</h3>
+<h3>6. System Analysis Alternatives to SysInternals</h3>
   ```bash
   sudo apt install sysstat net-tools lsof htop strace tcpdump -y
   ```
@@ -79,7 +79,7 @@ htop – Process monitor
 
 strace – Syscall tracer
   
-  7. <h3>Hashing Tools</h3>
+<h3>7. Hashing Tools</h3>
   ```bash
   sudo apt install hashdeep -y
   ```
@@ -87,7 +87,7 @@ hashdeep – Recursive hashing of files.
 
 sha256sum, md5sum already available on most Linux systems.
   
-  8. <h3>Create Script & Template Files</h3>
+<h3>8. Create Script & Template Files</h3>
   ```bash
   cd ~/Desktop/Projects/"Forensic USB"/PowerShellScripts
   touch analyze_network.ps1 list_processes.ps1
